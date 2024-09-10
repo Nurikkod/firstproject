@@ -6,7 +6,6 @@ import './App.css'
 function App () {
   const [weather, setWeather] = useState("")
   
-
   return (
     <div>
         <Header setWeather = {setWeather} />
