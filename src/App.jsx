@@ -7,10 +7,10 @@ function App () {
   const [weather, setWeather] = useState("")
   
   return (
-    <div>
+    <>
         <Header setWeather = {setWeather} />
         <Main weather = {weather} /> 
-    </div>
+    </>
   )
 }
 
