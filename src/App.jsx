@@ -8,10 +8,10 @@ function App () {
   
 
   return (
-    <>
-    <Header setWeather = {setWeather} />
-    <Main weather = {weather} /> 
-    </>
+    <div>
+        <Header setWeather = {setWeather} />
+        <Main weather = {weather} /> 
+    </div>
   )
 }
 
